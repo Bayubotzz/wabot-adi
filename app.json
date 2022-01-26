@@ -10,23 +10,23 @@
   "website": "http://bit.ly/Grupgabutbotv1",
   "env": {
     "API_KEY": {
-      "description": "Get the API key here https://api.xteam.xyz",
+      "description": "48f04cbb2d550fe3",
       "required": true
     },
     "API_KEY_ZEKS": {
-      "description": "Get the API key here https://api.zeks.xyz",
+      "description": "3vuHLBHpcGPq9ZQnmSzgUqTaOVR",
       "required": true
     },
     "BOT_NAME": {
-      "description": "Enter Your Bot Name",
+      "description": "ELAINA-BOT",
       "required": false
     },
     "OWNER_NUMBER": {
-      "description": "your whatsapp number",
+      "description": "6289525518325",
       "required": true
     },
     "BOT_NUMBER": {
-      "description": "your whatsapp bot number",
+      "description": "6283834441926",
       "required": false
     }
 },
