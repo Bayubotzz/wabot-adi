@@ -1,9 +1,9 @@
 const os = process
 global.DeveloperMode = 'false' //true Or false
-global.owner = ['79917358836', '6289504585790'] || os.env["OWNER_NUMBER"]// Put your number here
+global.owner = ['6289525518325', '6289525518325'] || os.env["6289525518325"]// Put your number here
 global.linkGC = ['http://bit.ly/Grupgabutbotv1']
-global.mods = ['79917358836', '6289504585790'] // Want some help?
-global.prems = ['79917358836', '6289504585790'] // Premium user has unlimited limit
+global.mods = ['6289525518325'] // Want some help?
+global.prems = ['6289525518325'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -21,8 +21,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'Sticker Dari Bot Adi'
-global.author = 'GH: Adi-OfficialL'
+global.packname = 'ELAINA-BOT'
+global.author = 'SUBSCRIBE BAYU OFC'
 
 global.multiplier = 69 // The higher, The harder levelup
 
