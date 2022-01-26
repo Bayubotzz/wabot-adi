@@ -26,10 +26,8 @@ let handler = async m => m.reply(`
 
 ◪ *Jika Minat Hubungi owner kami*
 ◪ *Atau Masuk Group Official Bot*
-_http://bit.ly/Grupgabutbotv1_
+_https://chat.whatsapp.com/Gj0kHatV2AoFyL2WyTTv2o_
 
-Ingin Jadi Bot Seperti ini?
-ketik #jadibot
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['sewabot', 'buypremium']
 handler.tags = ['main']
