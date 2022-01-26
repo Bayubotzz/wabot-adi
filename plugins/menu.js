@@ -152,18 +152,16 @@ let pantek = 'https://i.ibb.co/8z7zqXv/IMG-20210618-WA0001.jpg'
 ├◪ *INFO*
 ││
 │├❒ *Owner Of This Bot*
-│├❒ _http://wa.me/6289504585790_
+│├❒ _http://wa.me/6289525518325_
 │├❒ *Official WhatsApp Bot Groups*
-│├❒ *https://bit.ly/Grupgabutbotv1*
-│├❒ *Tap To Join our Telegram Group*
-│└❒ *https://t.me/gabutsquad44*
+│├❒ *https://chat.whatsapp.com/Gj0kHatV2AoFyL2WyTTv2o*
 │
 └───────────────────────
 %readmore`
     let header = conn.menu.header || '┌──*「 ```%category``` 」*──'
     let body   = conn.menu.body   || '├◪ *%cmd%islimit*'
     let footer = conn.menu.footer || '└───────────────────────'
-    let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered by https://wa.me/${global.conn.user.jid.split`@`[0]}`) + `\n\n*SPECIAL THANKS TO*\n\n*❒ Nurutomo*\n*❒ Drawl Nag*\n*❒ Caliph*\n*❒ BochilGaming*\n*❒ RendyCraft*\n*❒ Adi Official*\n*❒ Penyedia Apikey*\n*❒ Creator Bot WhatsApp*\n*❒ Dan Seluruh Pengguna Bot ini*`
+    let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered by https://wa.me/${global.conn.user.jid.split`@`[0]}`) + `\n\n*SPECIAL THANKS TO*\n\n*❒ BAYU OFC*\n*❒ ELAINA-BOT*\n*❒ Caliph*\n*❒ BochilGaming*\n*❒ RendyCraft*\n*❒ BAYU OFC*\n*❒ Penyedia Apikey*\n*❒ Creator Bot WhatsApp*\n*❒ Dan Seluruh Pengguna Bot ini*`
     let _text  = before + '\n'
     for (let tag in groups) {
       _text += header.replace(/%category/g, tags[tag]) + '\n'
@@ -184,9 +182,7 @@ let pantek = 'https://i.ibb.co/8z7zqXv/IMG-20210618-WA0001.jpg'
       exp: exp - min,
       maxexp: xp,
       totalexp: exp,
-      xp4levelup: max - exp,
-      github: package.homepage ? package.homepage.url || package.homepage : '[unknown github url]',
-      level, limit, name, weton, week, date, time, totalreg, rtotalreg,
+      xp4levelup: max - exp,level, limit, name, weton, week, date, time, totalreg, rtotalreg,
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).join`|`})`, 'g'), (_, name) => ''+replace[name])
